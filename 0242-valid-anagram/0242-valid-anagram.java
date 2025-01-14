@@ -18,8 +18,6 @@ class Solution {
                 map.put(t.charAt(i),-1);       
         }
 
-        System.out.println(map);
-
         for(Character key : map.keySet()){
             if(map.get(key)!=0)
                 return false;
