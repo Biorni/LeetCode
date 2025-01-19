@@ -13,7 +13,6 @@ class Solution {
             } else {
                 top = mid -1;
             }
-            System.gc();
         }
 
         return -1;
