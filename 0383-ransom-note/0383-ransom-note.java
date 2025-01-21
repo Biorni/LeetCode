@@ -4,13 +4,6 @@ class Solution {
         HashMap<Character,Integer> magazineMap = new HashMap<>();
         HashMap<Character,Integer> note = new HashMap<>();
 
-        // for(int i=0; int i<magazine.length; int i++){
-        //     if(!magazineMap.get(magazine.toCharAt(i)))
-        //         magazineMap.put(magazine.toCharAt(i),1);
-        //     else
-        //         map.put(magazine.toCharAt(i), map.get(magazine.toCharAt(i)) + 1);
-        // }
-
         for(int i=0; i<ransomNote.length(); i++){
             if(!note.containsKey(ransomNote.charAt(i)))
                 note.put(ransomNote.charAt(i),1);
@@ -30,8 +23,6 @@ class Solution {
                 break;
             }
         }
-
-        System.out.println(note);
 
         return mapIsEmpty;
     }
