@@ -19,8 +19,7 @@ class Solution {
         boolean mapIsEmpty = true;
         for (int value : note.values()) {
             if (value > 0) {
-                mapIsEmpty = false;
-                break;
+                return false;
             }
         }
 
