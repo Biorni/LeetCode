@@ -16,13 +16,12 @@ class Solution {
                 note.put(magazine.charAt(i), note.get(magazine.charAt(i)) - 1);
         }
 
-        boolean mapIsEmpty = true;
         for (int value : note.values()) {
             if (value > 0) {
                 return false;
             }
         }
 
-        return mapIsEmpty;
+        return true;
     }
 }
