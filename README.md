@@ -69,4 +69,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/Biorni/LeetCode/tree/master/0383-ransom-note) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Biorni/LeetCode/tree/master/0070-climbing-stairs) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Biorni/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Biorni/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
